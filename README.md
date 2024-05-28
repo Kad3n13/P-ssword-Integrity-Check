@@ -1,4 +1,4 @@
-Password Integrity Checker Code
+PASSWORD INTEGRITY CHECKER {CODE} (Python)
 
     import string
     
@@ -69,9 +69,9 @@ Password Integrity Checker Code
             else:
                 print('Invalid, Try Again')
 
-if __name__ == '__main__':
-    print('+++ Welcome to PWD checker +++')
-    ask_pw = ask_pwd()
-    while check_pwd:
+        if __name__ == '__main__':
+        print('+++ Welcome to PWD checker +++')
+        ask_pw = ask_pwd()
+        while check_pwd:
         check_pwd()
         ask_pw = ask_pwd(True)
