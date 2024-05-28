@@ -1,3 +1,4 @@
+PASSWORD INTEGRITY CHECKER {CODE} (Python)
 Example Passwords used 
 
 1 weakpwd
@@ -15,7 +16,7 @@ Example Passwords used
 
 ![easy-1](https://github.com/Kad3n13/P-ssword-Integrity-Check/assets/159424810/56735989-713e-4968-a0e2-624dabc93e83)
 
-PASSWORD INTEGRITY CHECKER {CODE} (Python)
+
 
     import string
 
