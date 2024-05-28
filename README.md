@@ -1,9 +1,12 @@
-import string
-import getpass
+Password Integrity Checker Code
 
-def check_pwd():
+    import string
+    
+    import getpass
+    
+    def check_pwd():
     password = getpass.getpass("Enter Password ")
-    Strenth = 0
+    Strength = 0
     remarks = ''
     lower_count = upper_count = num_count = wspace_count = special_ count = 0
 
