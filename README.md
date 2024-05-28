@@ -1,14 +1,14 @@
 PASSWORD INTEGRITY CHECKER {CODE} (Python)
 
     import string
-    
+
     import getpass
-    
+
     def check_pwd():
     password = getpass.getpass("Enter Password ")
     Strength = 0
     remarks = ''
-    lower_count = upper_count = num_count = wspace_count = special_ count = 0
+    lower_count = upper_count = num_count = wspace_count = special_count = 0
 
     for char in list(Password):
         if char in string.ascii_lowecase:
@@ -75,3 +75,5 @@ PASSWORD INTEGRITY CHECKER {CODE} (Python)
         while check_pwd:
         check_pwd()
         ask_pw = ask_pwd(True)
+
+
